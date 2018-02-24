@@ -1,0 +1,83 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Doctor Who Quiz</string>
+    <string name="enter_name">Please enter your name!</string>
+    <string name="zero_points">Come on,<xliff:g example="Amy" id="name"> %s</xliff:g>, you can do better than 0 for sure!</string>
+    <string name="four_points">You\'re improving,<xliff:g example="Amy" id="name"> %s</xliff:g>, but I know you can do better than<xliff:g example="4" id="score"> %d</xliff:g></string>
+    <string name="five_points">Nicely done,<xliff:g example="Amy" id="name"> %s </xliff:g>,you\'re halfway there!"</string>
+    <string name="seven_points">Great job<xliff:g example="Amy" id="name"> %s</xliff:g>, you got<xliff:g example="7" id="score"> %d</xliff:g></string>
+    <string name="nine_points">Woah, you\'re so close<xliff:g example="Amy" id="name"> %s</xliff:g>. Just<xliff:g example="1" id="score"> %d </xliff:g> left!</string>
+    <string name="ten_points"><xliff:g example="Amy" id="name">%s </xliff:g>you\'re brilliant! You got a perfect<xliff:g example="10" id="score"> %d</xliff:g>!</string>
+    <string name="answer_all">Please answer all the questions</string>
+    <string name="sorry_first_second">Sorry, that was the Fourth Doctor</string>
+    <string name="sorry_first_third">Sorry, that was the War Doctor</string>
+    <string name="sorry_second_first">Sorry, not quite like that</string>
+    <string name="sorry_second_third">Was it really a question?</string>
+    <string name="sorry_third_first">Check your \'i\'s</string>
+    <string name="sorry_third_second">Check your \'o\'s</string>
+    <string name="sorry_fourth_second">Sorry, that was two lines before</string>
+    <string name="sorry_fourth_third">Sorry, no goodbyes in this episode</string>
+    <string name="sorry_fifth_first">Sorry, not quite that round</string>
+    <string name="sorry_fifth_third">Sorry, not quite that elongated</string>
+    <string name="sorry_sixth_first">Did you watch the 50 anniversary special ending?</string>
+    <string name="sorry_sixth_second">Try not reversing the polarity of the neutron flow</string>
+    <string name="sorry_sixth_third">Watch the last Christmas Special</string>
+    <string name="sorry_sixth_fourth">Him and the 10th Doctor shared a few moments in a Children in Need special</string>
+    <string name="sorry_seventh_first">Aren\'t you forgetting our favourite Allons-y?</string>
+    <string name="sorry_seventh_second">Sadly, the leather jacket didn\'t make a return</string>
+    <string name="sorry_seventh_third">Don\'t forget the coolest accessory</string>
+    <string name="sorry_seventh_fourth">Was it really Paul McGann?</string>
+    <string name="sorry_eight_first">Sorry, that\'s actually Androgar who said that</string>
+    <string name="sorry_eight_third">Sorry, no Modern Art in this one</string>
+    <string name="sorry_ninth_second">Sorry, great book but sadly not a place to hide a TARDIS key</string>
+    <string name="sorry_ninth_third">Sorry, but only the beginning is correct</string>
+    <string name="sorry_tenth_first">Sorry, the first second of eternity is much longer</string>
+    <string name="sorry_tenth_third">Sorry, the first second of eternity is a tad longer</string>
+    <string name="doctor_who_quiz">Doctor Who Quiz</string>
+    <string name="first_of_all">First of all</string>
+    <string name="your_name">Your name</string>
+    <string name="first_question">1) Who portrayed the 9th Doctor?</string>
+    <string name="first_first">Christopher Eccleston</string>
+    <string name="first_second">Tom Baker</string>
+    <string name="first_third">John Hurt</string>
+    <string name="second_question">2) What were the 10th Doctor\'s last words?</string>
+    <string name="second_first">I won\'t go…</string>
+    <string name="second_second">I don\'t want to go…</string>
+    <string name="second_third">Why do I have to go?</string>
+    <string name="third_question">3) Which planet are the Slitheen from?</string>
+    <string name="third_first">Rixacoricofallapatorious</string>
+    <string name="third_second">Roxacoricofallapatorious</string>
+    <string name="third_third">Raxacoricofallapatorious</string>
+    <string name="fourth_question">4) What is/are River Song\'s final word(s) before her sacrifice?</string>
+    <string name="fourth_first">Spoilers!</string>
+    <string name="fourth_second">You watch us run!</string>
+    <string name="fourth_third">Goodbye, sweetie…</string>
+    <string name="fifth_question">5) Which fruit does the Doctor dislike?</string>
+    <string name="fifth_first">Oranges</string>
+    <string name="fifth_second">Pears</string>
+    <string name="fifth_third">Bananas</string>
+    <string name="sixth_question">6) Which classic era Doctors appeared in the modern era?</string>
+    <string name="sixth_first">The Fourth - Tom Baker</string>
+    <string name="sixth_second">The Third - Patrick Troughton</string>
+    <string name="sixth_third">The First - William Hartnell</string>
+    <string name="sixth_fourth">The Fifth - Peter Davison</string>
+    <string name="seventh_question">7) Which Doctors were present throughout the 50 year anniversary (excluding the ending scene)?</string>
+    <string name="seventh_first">The Tenth - David Tennant</string>
+    <string name="seventh_second">The Ninth - Cristopher Eccleston</string>
+    <string name="seventh_third">The Eleventh - Matt Smith</string>
+    <string name="seventh_fourth">The Eight - Paul McGann</string>
+    <string name="eight_question">8) What were Peter Capaldi\'s first words as the 12th Doctor?</string>
+    <string name="eight_first">No, sir! All thirteen!</string>
+    <string name="eight_second">Kidneys!</string>
+    <string name="eight_third">Modern Art!</string>
+    <string name="ninth_question">9) In Dark Water, which novel did Clara retrive one of the TARDIS keys from??</string>
+    <string name="ninth_first">The Time Traveller\'s Wife</string>
+    <string name="ninth_second">The Hitchhiker\'s Guide to the Galaxy</string>
+    <string name="ninth_third">The Time Machine</string>
+    <string name="tenth_question">10) How long was the Doctor trapped in the confession dial?</string>
+    <string name="tenth_first">3½ billion years</string>
+    <string name="tenth_second">4½ billion years</string>
+    <string name="tenth_third">4 billion years</string>
+    <string name="submit_answers">Submit Answers</string>
+    <string name="reset_quiz">Reset Quiz</string>
+    <string name="content_description_ImageView_background">background TARDIS image</string>
+</resources>

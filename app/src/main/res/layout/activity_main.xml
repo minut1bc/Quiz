@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quiz.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7"
+        android:contentDescription="@string/content_description_ImageView_background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/doctorwho" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="@string/doctor_who_quiz"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingStart="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViewQuestion"
+                android:layout_marginBottom="0dp"
+                android:text="@string/first_of_all" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/your_name"
+                android:inputType="textCapWords"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorPrimary"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/TextViewQuestion"
+                android:text="@string/first_question" />
+
+            <RadioGroup
+                android:id="@+id/firstRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp">
+
+                <RadioButton
+                    android:id="@+id/firstRadioFirst"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/first_first" />
+
+                <RadioButton
+                    android:id="@+id/firstRadioSecond"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/first_second" />
+
+                <RadioButton
+                    android:id="@+id/firstRadioThird"
+                    style="@style/TextViewQuestion.Answer"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/first_third" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/firstWrong"
+                style="@style/TextViewQuestion.Wrong" />
+
+            <TextView
+                style="@style/TextViewQuestion"
+                android:layout_marginTop="10dp"
+                android:text="@string/second_question" />
+
+            <RadioGroup
+                android:id="@+id/secondRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp">
+
+                <RadioButton
+                    android:id="@+id/secondRadioFirst"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/second_first" />
+
+                <RadioButton
+                    android:id="@+id/secondRadioSecond"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/second_second" />
+
+                <RadioButton
+                    android:id="@+id/secondRadioThird"
+                    style="@style/TextViewQuestion.Answer"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/second_third" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/secondWrong"
+                style="@style/TextViewQuestion.Wrong" />
+
+            <TextView
+                style="@style/TextViewQuestion"
+                android:layout_marginTop="10dp"
+                android:text="@string/third_question" />
+
+            <RadioGroup
+                android:id="@+id/thirdRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp">
+
+                <RadioButton
+                    android:id="@+id/thirdRadioFirst"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/third_first" />
+
+                <RadioButton
+                    android:id="@+id/thirdRadioSecond"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/third_second" />
+
+                <RadioButton
+                    android:id="@+id/thirdRadioThird"
+                    style="@style/TextViewQuestion.Answer"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/third_third" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/thirdWrong"
+                style="@style/TextViewQuestion.Wrong" />
+
+            <TextView
+                style="@style/TextViewQuestion"
+                android:layout_marginTop="10dp"
+                android:text="@string/fourth_question" />
+
+            <RadioGroup
+                android:id="@+id/fourthRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp">
+
+                <RadioButton
+                    android:id="@+id/fourthRadioFirst"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/fourth_first" />
+
+                <RadioButton
+                    android:id="@+id/fourthRadioSecond"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/fourth_second" />
+
+                <RadioButton
+                    android:id="@+id/fourthRadioThird"
+                    style="@style/TextViewQuestion.Answer"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/fourth_third" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/fourthWrong"
+                style="@style/TextViewQuestion.Wrong" />
+
+            <TextView
+                style="@style/TextViewQuestion"
+                android:layout_marginTop="10dp"
+                android:text="@string/fifth_question" />
+
+            <RadioGroup
+                android:id="@+id/fifthRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp">
+
+                <RadioButton
+                    android:id="@+id/fifthRadioFirst"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/fifth_first" />
+
+                <RadioButton
+                    android:id="@+id/fifthRadioSecond"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/fifth_second" />
+
+                <RadioButton
+                    android:id="@+id/fifthRadioThird"
+                    style="@style/TextViewQuestion.Answer"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/fifth_third" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/fifthWrong"
+                style="@style/TextViewQuestion.Wrong" />
+
+            <TextView
+                style="@style/TextViewQuestion"
+                android:layout_marginTop="10dp"
+                android:text="@string/sixth_question" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/sixthCheckFirst"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/sixth_first" />
+
+                <CheckBox
+                    android:id="@+id/sixthCheckSecond"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/sixth_second" />
+
+                <CheckBox
+                    android:id="@+id/sixthCheckThird"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/sixth_third" />
+
+                <CheckBox
+                    android:id="@+id/sixthCheckFourth"
+                    style="@style/TextViewQuestion.Answer"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/sixth_fourth" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sixthtWrong"
+                style="@style/TextViewQuestion.Wrong" />
+
+            <TextView
+                style="@style/TextViewQuestion"
+                android:layout_marginTop="10dp"
+                android:text="@string/seventh_question" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/seventhCheckFirst"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/seventh_first" />
+
+                <CheckBox
+                    android:id="@+id/seventhCheckSecond"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/seventh_second" />
+
+                <CheckBox
+                    android:id="@+id/seventhCheckThird"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/seventh_third" />
+
+                <CheckBox
+                    android:id="@+id/seventhCheckFourth"
+                    style="@style/TextViewQuestion.Answer"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/seventh_fourth" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/seventhWrong"
+                style="@style/TextViewQuestion.Wrong" />
+
+            <TextView
+                style="@style/TextViewQuestion"
+                android:layout_marginTop="10dp"
+                android:text="@string/eight_question" />
+
+            <RadioGroup
+                android:id="@+id/eightRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp">
+
+                <RadioButton
+                    android:id="@+id/eightRadioFirst"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/eight_first" />
+
+                <RadioButton
+                    android:id="@+id/eightRadioSecond"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/eight_second" />
+
+                <RadioButton
+                    android:id="@+id/eightRadioThird"
+                    style="@style/TextViewQuestion.Answer"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/eight_third" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/eightWrong"
+                style="@style/TextViewQuestion.Wrong" />
+
+            <TextView
+                style="@style/TextViewQuestion"
+                android:layout_marginTop="10dp"
+                android:text="@string/ninth_question" />
+
+            <RadioGroup
+                android:id="@+id/ninthRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp">
+
+                <RadioButton
+                    android:id="@+id/ninthRadioFirst"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/ninth_first" />
+
+                <RadioButton
+                    android:id="@+id/ninthRadioSecond"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/ninth_second" />
+
+                <RadioButton
+                    android:id="@+id/ninthRadioThird"
+                    style="@style/TextViewQuestion.Answer"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/ninth_third" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/ninthWrong"
+                style="@style/TextViewQuestion.Wrong" />
+
+            <TextView
+                style="@style/TextViewQuestion"
+                android:layout_marginTop="10dp"
+                android:text="@string/tenth_question" />
+
+            <RadioGroup
+                android:id="@+id/tenthRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp">
+
+                <RadioButton
+                    android:id="@+id/tenthRadioFirst"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/tenth_first" />
+
+                <RadioButton
+                    android:id="@+id/tenthRadioSecond"
+                    style="@style/TextViewQuestion.Answer"
+                    android:text="@string/tenth_second" />
+
+                <RadioButton
+                    android:id="@+id/tenthRadioThird"
+                    style="@style/TextViewQuestion.Answer"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/tenth_third" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tenthWrong"
+                style="@style/TextViewQuestion.Wrong" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:onClick="submitScore"
+                    android:text="@string/submit_answers"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:onClick="resetQuiz"
+                    android:text="@string/reset_quiz"
+                    tools:ignore="ButtonStyle" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
